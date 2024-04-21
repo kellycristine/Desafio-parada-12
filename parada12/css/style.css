@@ -1,0 +1,74 @@
+body{
+    background-image: url(../img/1024px-Comet_McNaught_at_Paranal.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    margin: 0px;
+}
+.main{
+    margin: auto;
+    font-size: 20px;
+    width: 70%;
+    text-align: justify;
+    background-color: #fff;
+}
+
+.header{
+    padding: 30px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.header h1{
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+}
+
+.banner img{
+    width: 100%;
+    
+}
+.content{
+    display: flex;
+}
+.box{
+    padding: 15px;
+}
+
+.box h2{
+    border-bottom: 2px solid #000;
+}
+
+.video{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (max-width: 1024px){
+    .main{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        background-image: none;
+    }
+    .main{
+        width: auto;
+        font-size: 14px;
+    }
+    .content{
+        flex-direction: column;
+    }
+}
